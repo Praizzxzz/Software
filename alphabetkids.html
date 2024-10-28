@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Videos</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Child-friendly font */
+            background-image: url('https://wallpapers.com/images/hd/alphabet-1920-x-1080-background-mqc3qzz11nkg6ade.jpg'); /* Add your background image URL here */
+            background-size: cover; /* Make the background image cover the entire viewport */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent repeating the image */
+            background-attachment: fixed; /* Keep the background image fixed during scrolling */
+            text-align: center;
+            margin: 0;
+            padding: 50px;
+            color: white; /* Change text color to white for better visibility on background */
+        }
+        .container {
+            max-width: 800px; /* Set a maximum width for the container */
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for container */
+        }
+        .container h1 {
+            color: #ff5722; /* Bright header color */
+            animation: bounce 1s infinite; /* Bounce animation */
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        .video {
+            margin: 20px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Learn A, B, C's</h1>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/p-kAI-qOeJA" allowfullscreen></iframe>
+            PART 1
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/T9ViFtzplf8" allowfullscreen></iframe>
+            PART 2
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/Nggz-1CEWfg" allowfullscreen></iframe>
+            PART 3
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/drlIUqRYM-w" allowfullscreen></iframe>
+            PART 4
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/71h8MZshGSs" allowfullscreen></iframe>
+            PART 5
+        </div>
+        <div class="video">
+            <iframe src="https://www.youtube.com/embed/kpy6QEAuLJw" allowfullscreen></iframe>
+            PART 6
+        </div>
+    </div>
+</body>
+</html>

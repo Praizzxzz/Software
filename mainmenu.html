@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Menu</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Child-friendly font */
+            background-color: #ffeb3b; /* Bright background color */
+            text-align: center;
+            margin: 0;
+            padding: 50px;
+        }
+        .menu {
+            background-color: #fff;
+            border-radius: 15px; /* More rounded corners */
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            padding: 40px; /* Increased padding for more space */
+            display: inline-block;
+            width: 400px; /* Set a fixed width for the menu */
+            max-width: 90%; /* Responsive design for smaller screens */
+        }
+        .menu h1 {
+            color: #ff5722; /* Bright header color */
+            animation: bounce 1s infinite; /* Bounce animation */
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-10px);
+            }
+            60% {
+                transform: translateY(-5px);
+            }
+        }
+        .menu a {
+            display: block;
+            margin: 15px 0;
+            padding: 15px 25px; /* Larger padding for better touch targets */
+            text-decoration: none;
+            color: #ffffff; /* White text */
+            background-color: #4caf50; /* Bright green background */
+            border-radius: 10px; /* Rounded buttons */
+            transition: background-color 0.3s, transform 0.2s; /* Transition for background and transform */
+        }
+        .menu a:hover {
+            background-color: #388e3c; /* Darker green on hover */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <h1>Main Menu</h1>
+        <a href="./countadults.html">Maths Learning</a>
+        <a href="./soundlearn.html">Sounds Learning/a>
+        <a href="./sentadult.html">Make Sentences</a>
+        <a href="./numadult.html">Identify Numbers</a>
+       
+    </div>
+</body>
+</html>
